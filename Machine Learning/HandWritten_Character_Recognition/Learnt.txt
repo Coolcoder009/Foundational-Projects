@@ -1,0 +1,7 @@
+Keras dataset							MNIST 
+Exploring image dimensions				x_train.shape			(Images and their dimensions) 
+Scaling the images						x_train/255 			(Values between 0 & 1) 
+NN with diff layers combination 		CNN
+Model training with optimizers 			Adam
+Loss 									Sparse categorical cross entropy 
+Confusion Matrix
