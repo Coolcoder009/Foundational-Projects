@@ -1,0 +1,4 @@
+Handling Nominal data 				df.loc 
+Models training
+Classification report 
+Confusion matrix 
