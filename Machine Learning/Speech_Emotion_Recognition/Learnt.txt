@@ -1,0 +1,19 @@
+librosa.load -> Load audio data in numpy format
+waveshow -> for showing the audio sample 
+Normalization of audio data to a threshold to 5DB 
+0 dBFS is the loudest signal and applying headroom 5DB will normalize the audio to maximum but lesser than 5 from maximum 0 dBFS 
+Remove the silent part at the begining -> Eg:30DB lesser sound is removed 
+Finding maximum sample length -> Maximum audio data for feature extraction 
+Padding -> Padding the data to the maximum
+reduce noise -> noisereduce library
+frame length -> length of audio we take at a time 
+hop length -> no of samples the window moves after computing 
+Root Mean Square -> average volume of an audio(chunks at a time eg:300ms) given with frame length and hop length 
+Zero crossing rate -> No of times the signal moves from -ve to +ve or +ve to -ve.. in a frame 2048 samples, 60 samples may crossed ZCR 
+mfccs -> Mel-Frequency Cepstral Coefficients it’s a way to represent the short-term power spectrum of a sound 
+Training a LSTM model -> LSTM being used as the use case involves catching the long term dependencies (we save ZCR,RMS,MFCCS over time {sequential frames})
+Saving weights -> Why weights alone saved initially is because to have a testing on other architectures
+Precision -> How many correctly predicted samples are actually correct 
+Recall -> How many samples model predicted correct 
+F1 score -> Harmonic mean of Precision & Recall (F1 score should be high, if either one is low the score drops too) 
+Preprocessing the audio file for testing the same way we used audio files for training
