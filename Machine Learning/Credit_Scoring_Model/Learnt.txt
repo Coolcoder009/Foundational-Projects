@@ -1,0 +1,5 @@
+Renaming some features in a suitable format 	df.rename 					(Rename the columns as per meaningful one)
+Handling some unmeaningful data 		 		df.loc 						(Assigning values 0 or 1)
+Dropping less important features 				df.drop						(Dropping less important columns axis = 1)
+One Hot Encoding								pd.get_dummies				(Handling non numeric data & concatinating)
+Testing on multiple models 
