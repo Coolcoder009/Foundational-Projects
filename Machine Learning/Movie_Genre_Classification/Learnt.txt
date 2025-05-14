@@ -1,0 +1,10 @@
+Separating and saving the data with title author description
+Data explorations like data.head(), data.tail(), data.describe(), data.info(), getting unique values in a column
+Using regular expression to preprocess the content
+Using various nlp models provided by nltk -> stemmer, stopwords, tokenizer
+Stemming -> making word to it's base form 
+Stopwords -> words such as "in" "at" doesn't contribute so using this corpus we can remove 
+Tokenizer -> make words from sentences 
+TF-IDF vectorizer
+TF -> How often a word occurs in a doc. High freq says greater importance
+IDF -> Increasing the weight of rare words 
