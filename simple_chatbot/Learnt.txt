@@ -1,0 +1,5 @@
+How query responses are done between frontend and backend
+Anthropic -> Claud AI for response generation 
+Fastapi for backend development 
+Base model for better way of checking whether required data are sent... data validation we can also say "Reusability"
+How to sent back response from the payload got from claud AI
