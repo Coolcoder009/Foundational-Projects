@@ -1,0 +1,105 @@
+/* FullScreenChatbot.css – slim ChatGPT‑style input & button */
+
+.cb-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.cb-messages {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cb-msg {
+  max-width: 80%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  font-size: 14px;
+  line-height: 18px;
+  word-break: break-word;
+}
+
+.cb-user {
+  align-self: flex-end;
+  background: #d1e7dd;
+}
+
+.cb-assistant {
+  align-self: flex-start;
+  background: #ffffff;
+}
+
+/* Spinner */
+.cb-spinner-wrapper {
+  align-self: center;
+  margin: 8px 0;
+}
+
+.cb-spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ccc;
+  border-top-color: #007bff;
+  border-radius: 50%;
+  animation: cb-spin 1s linear infinite;
+}
+
+@keyframes cb-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Input area */
+.cb-input-bar {
+  display: flex;
+  padding: 8px 12px;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  gap: 8px;
+}
+
+.cb-input {
+  flex: 1;
+  resize: none;
+  border: 1px solid #cfd3d7;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 36px;
+  max-height: 200px;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.cb-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.cb-send-btn {
+  align-self: flex-end;
+  height: 36px;
+  padding: 0 12px;
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cb-send-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
