@@ -1,0 +1,7 @@
+Recommendation Systems -> systems that recommend goods or services to users based on user's previous interests and preferences. 
+Recommendation Systems are built by 2 approaches -> Content Based filtering, Collaborative Filtering 
+Content Based filtering -> This appraoch works by recommending users with users specific interests and profile. Eg: User likes a MOVIE A, then recommending a MOVIE B with same director
+	or same genre kind of...
+Collaborative filtering -> This approach works by recommending users by analyzing users behaviour and preferences... other users with same analysis are assumed to have same tastes
+	so Eg: User A and User B liked a MOVIE A, now after sometime user A likes a MOVIE B, then user B will be recommended with MOVIE B. 
+Cosine similarity-> Similarity between vectors by calulating the cosine angle
