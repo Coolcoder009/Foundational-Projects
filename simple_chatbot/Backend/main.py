@@ -44,3 +44,6 @@ async def get_response(query:Query):
     return {
         "text": "".join(block.text for block in message.content if block.type == "text")
     }
+
+
+   
