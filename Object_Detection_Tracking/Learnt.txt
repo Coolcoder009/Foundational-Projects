@@ -1,0 +1,3 @@
+Object detection involves identifying objects within a single frame and categorizing them into predefined classes.
+Object tracking, on the other hand, extends beyond the identification of objects. Once an object is detected, tracking 
+	involves monitoring its movement across successive frames in a video.
