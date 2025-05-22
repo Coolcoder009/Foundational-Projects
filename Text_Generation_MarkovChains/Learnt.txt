@@ -1,0 +1,3 @@
+Markov chains.. how current state can be used for predicting next state (Unigram)
+We can use 2 states prev and curr to predict next (Bigram)
+We can use 3 states prev->prev, prev and curr to predict next (Trigram)
