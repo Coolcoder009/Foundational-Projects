@@ -1,0 +1,4 @@
+Learnt on how regex can be applied to extract contents 
+pypdf to extract the contents 
+docx to extract the contents from docs 
+fastapi post request 
