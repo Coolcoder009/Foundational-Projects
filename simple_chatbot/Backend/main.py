@@ -46,4 +46,3 @@ async def get_response(query:Query):
     }
 
 
-   
